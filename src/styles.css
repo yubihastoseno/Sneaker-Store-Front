@@ -1,6 +1,106 @@
 /* You can add global styles to this file, and also import other style files */
 
-.custom-button{
-    color: #fff;
-    background-color: #46b29d;
+.custom-button {
+  color: #fff;
+  background-color: #46b29d;
+}
+
+.container-fluid {
+  padding: 15px;
+}
+
+.hdr1 {
+  width: min-content;
+  border-bottom-style: solid;
+  float: left;
+  padding-bottom: 6px
+}
+
+.hdr11 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: .9;
+}
+
+.hdr2 {
+  float: right;
+  margin-top: 28px;
+}
+
+.hdr2 input {
+  border-bottom-style: solid;
+  width: 187px;
+}
+
+.hdr2 input,
+.hdr2 input:focus {
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  outline: none;
+}
+
+.hdr2 input::placeholder {
+  opacity: .3;
+}
+
+.hdr2 button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.hdr2 a,
+.hdr2 a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.hdr21 {
+  margin-bottom: 0;
+}
+
+#hdr21 {
+  text-align: justify;
+  padding: 0;
+}
+
+.hdr21 a {
+  color: black;
+}
+
+
+/* body {
+  position: absolute;
+} */
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 33.3%;
+  height: fit-content;
+  max-width: 600px;
+  min-width: 100px;
+}
+
+div.gallery:hover {
+  border: 2px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+div.desc {
+  background-color: black;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  width: fit-content;
+  line-height: 1;
+  margin: auto;
 }
